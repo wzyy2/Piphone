@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main_bg">#eeeeee</color>
+    <color name="tab">#a03f51b5</color>
+    <color name="box_body">#FFFFFF</color>
+
+
+    <color name="ab_backgroundSplit_color">#ffffff</color>
+    <color name="ab_background_color">#3f51b5</color>
+    <color name="ab_backgroundStacked_color">#ffffff</color>
+
+
+
+    <color name="Blue_Grey">#607d8b</color>
+    <color name="pink">#ff80ab</color>
+    <color name="dark_blue">#25865E</color>
+    <color name="light_blue">#7FC5B0</color>
+    <color name="light_yellow">#FFF6F7</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="drawer_bg">#ffffff</color>
+    <color name="light_black">#303030</color>
+    <color name="olive">#3d9970</color>
+    <color name="maroon">#85144b</color>
+    <color name="purple">#932ab6</color>
+    <color name="fuchsia">#f012be</color>
+    <color name="orange">#ff851b</color>ffc400
+    <color name="lime">#01ff70</color>
+    <color name="teal">#39cccc</color>
+    <color name="gray">#eaeaec</color>
+    <color name="aqua">#00c0ef</color>
+    <color name="blue">#0073b7</color>
+    <color name="mblack">#222222</color>
+    <color name="red">#f56954</color>
+    <color name="pi_blue">#14439C</color>
+    <color name="gray2">#607d8b</color>
+    <color name="yellow">#ffc400</color>
+
+    <color name="holo_blue_light">#3333b5e5</color>
+    <color name="holo_green_light">#3399cc00</color>
+    <color name="holo_red_light">#33ff4444</color>
+    <color name="holo_orange_light">#33ffbb33</color>
+    <color name="holo_purple_light">#33aa66cc</color>
+</resources>

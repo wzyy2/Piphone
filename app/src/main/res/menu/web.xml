@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".WebviewActivity" >
+    <item
+        android:id="@+id/action_open_aria2"
+        android:title="Open_Aria2"
+        android:icon="@drawable/aria2_open"
+        android:showAsAction="always" />
+    <item
+        android:id="@+id/action_close_aria2"
+        android:title="Close_Aria2"
+        android:icon="@drawable/aria2_close"
+        android:showAsAction="always" />
+</menu>

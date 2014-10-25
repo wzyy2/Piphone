@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg">
+
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/server_swiplayout">
+
+    <ScrollView
+        android:id="@+id/server_scrollview"
+        android:fillViewport="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/server_loading_gif"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="140dp"
+                android:visibility="gone"
+                android:background="@drawable/progress2"
+                />
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/server_body"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/box_padding_right_left"
+                android:paddingRight="@dimen/box_padding_right_left"
+                android:paddingTop="40dp">
+
+
+                <me.jacob.piphone.view.Tablelistview xmlns:Tablelistview="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/about_box"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    Tablelistview:bar_Color="@color/red"
+                    Tablelistview:need_button="false"
+                    Tablelistview:title_text="@string/status_server_about"></me.jacob.piphone.view.Tablelistview>
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </ScrollView>
+
+</android.support.v4.widget.SwipeRefreshLayout>
+
+</FrameLayout>

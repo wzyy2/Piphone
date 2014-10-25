@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+<TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="Filesystem"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:paddingBottom="@dimen/box_text_padding"
+            android:paddingTop="@dimen/box_text_padding"
+            android:id="@+id/tablebox_list2_0" />
+
+        <TextView
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:text="Mount Point"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:paddingBottom="@dimen/box_text_padding"
+                android:paddingTop="@dimen/box_text_padding"
+                android:id="@+id/tablebox_list2_1" />
+
+        <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Available"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:paddingBottom="@dimen/box_text_padding"
+                android:paddingTop="@dimen/box_text_padding"
+                android:id="@+id/tablebox_list2_2" />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Used"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:paddingBottom="@dimen/box_text_padding"
+                android:paddingTop="@dimen/box_text_padding"
+                android:id="@+id/tablebox_list2_3" />
+</LinearLayout>

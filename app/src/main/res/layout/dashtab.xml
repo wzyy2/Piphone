@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/tab_body"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:background="@color/olive"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tab_textView0"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="Large Text"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tab_textView1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="Medium Text"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/font_awesome"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="bottom|right"
+            android:paddingBottom="0dp"
+            android:text="@string/fa_music"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#30000000"
+            android:textSize="80sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/tab_textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="8"
+        android:background="@color/olive"
+        android:gravity="center"
+        android:paddingBottom="0dp"
+        android:paddingTop="0dp"
+        android:text="more info"
+        android:textColor="@color/btn_text" />
+
+</LinearLayout>

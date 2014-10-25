@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:textColor="@color/black"
+        android:paddingBottom="@dimen/box_text_padding"
+        android:paddingTop="@dimen/box_text_padding"
+
+        android:id="@+id/tablebox_list1_title" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:textSize="17dp"
+        android:paddingBottom="@dimen/box_text_padding"
+        android:paddingTop="@dimen/box_text_padding"
+        android:textColor="@color/black"
+        android:id="@+id/tablebox_list1_info"
+
+        android:layout_alignParentRight="true" />
+
+</RelativeLayout>

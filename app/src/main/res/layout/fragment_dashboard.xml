@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/container_padding"
+            android:paddingRight="@dimen/container_padding"
+            android:paddingTop="@dimen/container_padding">
+
+
+            <FrameLayout
+                android:background="@drawable/tab_shape"
+                android:padding="@dimen/container_padding"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:paddingBottom="@dimen/container_padding">
+
+                <ViewFlipper
+                    android:id="@+id/viewflipper"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/showpic0" />
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/showpic1" />
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/showpic2" />
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/showpic3" />
+                </ViewFlipper>
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|right"
+                    android:text=""
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </FrameLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:padding="@dimen/container_padding"
+                android:background="@drawable/tab_shape"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal"
+                    android:paddingTop="3dp">
+
+
+                    <me.jacob.piphone.view.DashTab xmlns:DashTab="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/conn_tab"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="3dp"
+                        android:layout_weight="1"
+                        DashTab:DashTab_background="@color/blue"
+                        DashTab:font_aws="@string/fa_road"
+                        DashTab:tab_text_button="More info"
+                        DashTab:tab_text_how="TRUE"
+                        DashTab:tab_text_what="Connection"></me.jacob.piphone.view.DashTab>
+
+                    <me.jacob.piphone.view.DashTab xmlns:DashTab="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/nas_tab"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="3dp"
+                        android:layout_weight="1"
+                        DashTab:DashTab_background="@color/Blue_Grey"
+                        DashTab:font_aws="@string/fa_hdd_o"
+                        DashTab:tab_text_button="More info"
+                        DashTab:tab_text_how="ENABLE"
+                        DashTab:tab_text_what="Nas"></me.jacob.piphone.view.DashTab>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal"
+                    android:paddingTop="6dp">
+
+                    <me.jacob.piphone.view.DashTab xmlns:DashTab="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/app_tab"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="3dp"
+                        android:layout_weight="1"
+                        DashTab:DashTab_background="@color/olive"
+                        DashTab:font_aws="@string/fa_rocket"
+                        DashTab:tab_text_button="More info"
+                        DashTab:tab_text_how="0"
+                        DashTab:tab_text_what="Application"></me.jacob.piphone.view.DashTab>
+
+                    <me.jacob.piphone.view.DashTab xmlns:DashTab="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/user_tab"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="3dp"
+                        android:layout_weight="1"
+                        DashTab:DashTab_background="@color/aqua"
+                        DashTab:font_aws="@string/fa_user"
+                        DashTab:tab_text_button="More info"
+                        DashTab:tab_text_how="0"
+                        DashTab:tab_text_what="User"></me.jacob.piphone.view.DashTab>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</FrameLayout>
